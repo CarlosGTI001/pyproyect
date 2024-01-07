@@ -3,6 +3,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 url = "https://ytlarge.com/youtube/monetization-checker/"
 
+
+
 # Configuración de Selenium con un navegador (Chrome o Firefox)
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
